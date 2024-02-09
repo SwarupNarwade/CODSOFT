@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soft UI Pro</title>
+    <meta property="og:title" content="Soft UI Pro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="header-header">
+          <nav class="header-nav">
+            <div class="header-container">
+              <a href="index.html" class="header-navlink">Landing Page</a>
+              <div class="header-menu">
+                <a href="index.html" class="header-navlink1 Large">Home</a>
+                <a href="profile.html" class="header-navlink2 Large">Profile</a>
+                <a
+                  href="https://www.linkedin.com/in/swarup-narwade-35009622b"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="header-link Large"
+                >
+                  <span>Linkedin</span>
+                </a>
+              </div>
+              <div class="header-container1">
+                <div class="header-container2">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button ButtonSmall"
+                    >
+                      <span>View</span>
+                    </button>
+                  </div>
+                </div>
+                <div data-role="BurgerMenu" class="header-burger-menu">
+                  <svg viewBox="0 0 1024 1024" class="header-icon">
+                    <path
+                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div data-role="MobileMenu" class="header-mobile-menu">
+            <div class="header-top">
+              <a href="index.html" class="header-navlink3 Large">
+                Soft UI Design System
+              </a>
+              <div data-role="CloseMobileMenu" class="header-close-menu">
+                <svg viewBox="0 0 1024 1024" class="header-icon2">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="header-mid">
+              <div class="header-menu1">
+                <a href="index.html" class="header-navlink4 Large">Home</a>
+                <a href="profile.html" class="header-navlink5 Large">Profile</a>
+                <a href="linkedin.html" class="header-navlink6 Large">
+                  Coming Soon
+                </a>
+              </div>
+            </div>
+            <div class="header-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button ButtonSmall">
+                  <span>buy now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero">
+          <div class="home-container01">
+            <div class="home-card">
+              <h1 class="home-text HeadingOne">Hi i'm Swarup.</h1>
+              <h1 class="home-text01 HeadingOne">Developer</h1>
+              <span class="home-text02">
+                Dedicated Computer Science Student committed to developing
+                Applications, high-achieving Software. Implements strength and
+                conditioning programmes to improve attainment and maintain
+                programs error free. Builds positive, professional relationships
+                to clients to maximise engagement and enhance outcomes.
+              </span>
+              <div class="home-container02">
+                <div class="home-container03">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button ButtonSmall"
+                    >
+                      <span>contact me</span>
+                    </button>
+                  </div>
+                </div>
+                <a href="profile.html" class="home-navlink">
+                  <div class="outline-gray-button-container">
+                    <button
+                      class="outline-gray-button-button button ButtonSmall"
+                    >
+                      <span>read more</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img alt="image" src="public/img_3192-800w.jpg" class="home-image" />
+        <section class="home-features">
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/cube1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>Design</span></h5>
+            <span class="feature-card-text1">
+              <span>Choose the best design system for your next product.</span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/person1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>idea's</span></h5>
+            <span class="feature-card-text1">
+              <span>Get the latest design ideas and turn it into reality.</span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/rocket1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>Code</span></h5>
+            <span class="feature-card-text1">
+              <span>Make your code easier to maintain using variables.</span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="public/credit%20card1.svg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>Support</span></h5>
+            <span class="feature-card-text1">
+              <span>This design system is fully supported on any device.</span>
+            </span>
+          </div>
+        </section>
+        <section class="home-container04">
+          <div class="home-container05">
+            <h1 class="home-text03 HeadingOne">What I Do</h1>
+            <span class="home-text04">
+              I'm an Crazy Developer, Who want's to develop application and
+              softwares for the upcoming world.
+            </span>
+          </div>
+          <div class="home-container06">
+            <div class="home-container07">
+              <img
+                alt="image"
+                src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laptop.jpg"
+                class="home-image01"
+              />
+              <span class="home-text05">
+                <span>
+                  Programming today is a race between software engineers
+                  striving to build bigger and better idiot-proof programs and
+                  the Universe trying to produce bigger and better idiots. So
+                  far, the Universe is winning.
+                </span>
+                <br />
+                <span></span>
+                <br />
+                <span>― Rick Coo</span>
+              </span>
+              <div class="home-container08">
+                <img
+                  alt="image"
+                  src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coding.jpg"
+                  class="home-image02"
+                />
+              </div>
+            </div>
+            <div class="home-container09">
+              <img
+                alt="image"
+                src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/tasks.jpg"
+                class="home-image03"
+              />
+              <div class="home-container10">
+                <h3 class="HeadingTwo">So what should i do as a Developer</h3>
+                <p>
+                  <br />
+                  <span>
+                    As a developer, your primary responsibility is to design,
+                    code, test, and maintain software applications. The specific
+                    tasks you perform may vary depending on your role, the type
+                    of development you're involved in, and the industry you work
+                    in. Here are some common activities that developers
+                    typically engage in:
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    Requirement Analysis: Understand the project requirements
+                    and specifications, often working closely with stakeholders
+                    such as clients or product managers.
+                  </span>
+                  <br />
+                  <span>
+                    Design: Create a blueprint for the software, outlining the
+                    architecture, data structures, and overall system design.
+                  </span>
+                  <br />
+                  <span>
+                    Coding: Write the actual code for the software based on the
+                    design. This involves using programming languages,
+                    frameworks, and tools relevant to the project.
+                  </span>
+                  <br />
+                  <span>
+                    Testing: Develop and implement tests to ensure that the
+                    software functions correctly and meets the specified
+                    requirements. This may include unit testing, integration
+                    testing, and system testing.
+                  </span>
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <div class="home-container11">
+            <div class="home-container12">
+              <div class="home-container13">
+                <h2 class="home-text25">Discription..</h2>
+                <p class="home-text26">
+                  "Empower your code journey with our developer platform.
+                  Explore cutting-edge tools, resources, and a vibrant community
+                  to enhance your skills, accelerate development, and turn your
+                  innovative ideas into reality. Join us in shaping the future
+                  of technology through collaboration, learning, and limitless
+                  possibilities."
+                </p>
+                <p class="home-text27">Swarup Narwade</p>
+                <p class="home-text28 Small">Developer, Pune&nbsp;</p>
+                <div class="home-container14">
+                  <img
+                    alt="image"
+                    src="public/team-4-200h.jpg"
+                    class="home-image04"
+                  />
+                  <div class="home-container15"></div>
+                  <img
+                    alt="image"
+                    src="public/team-3-200h.jpg"
+                    class="home-image05"
+                  />
+                  <div class="home-container16"></div>
+                  <img
+                    alt="image"
+                    src="public/team-2-200h.jpg"
+                    class="home-image06"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="home-logos">
+              <div class="home-container17">
+                <div class="home-container18">
+                  <div class="home-container19">
+                    <img
+                      alt="image"
+                      src="public/logo-asana.svg"
+                      class="home-image07"
+                    />
+                  </div>
+                  <div class="home-container20">
+                    <img
+                      alt="image"
+                      src="public/logo-slack.svg"
+                      class="home-image08"
+                    />
+                  </div>
+                  <div class="home-container21">
+                    <img
+                      alt="image"
+                      src="public/logo-google-drive.svg"
+                      class="home-image09"
+                    />
+                  </div>
+                </div>
+                <div class="home-container22">
+                  <div class="home-container23">
+                    <img
+                      alt="image"
+                      src="public/logo-shopify.svg"
+                      class="home-image10"
+                    />
+                  </div>
+                  <div class="home-container24">
+                    <img
+                      alt="image"
+                      src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
+                      class="home-image11"
+                    />
+                  </div>
+                  <div class="home-container25">
+                    <img
+                      alt="image"
+                      src="public/logo-invision.svg"
+                      class="home-image12"
+                    />
+                  </div>
+                </div>
+                <div class="home-container26">
+                  <div class="home-container27">
+                    <img
+                      alt="image"
+                      src="public/logo-attlasian.svg"
+                      class="home-image13"
+                    />
+                  </div>
+                  <div class="home-container28">
+                    <img
+                      alt="image"
+                      src="public/logo-weave.svg"
+                      class="home-image14"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/bottom.svg"
+            class="home-bottom-wave-image"
+          />
+          <img alt="image" src="public/waves-white.svg" class="home-image15" />
+          <img alt="image" src="public/top.svg" class="home-top-wave-image" />
+        </section>
+        <section class="home-contaier">
+          <div class="home-container29">
+            <div class="home-container30">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M363.722 722.052l41.298-57.816-45.254-45.256-57.818 41.296c-10.722-5.994-22.204-10.774-34.266-14.192l-11.682-70.084h-64l-11.68 70.086c-12.062 3.418-23.544 8.198-34.266 14.192l-57.818-41.298-45.256 45.256 41.298 57.816c-5.994 10.72-10.774 22.206-14.192 34.266l-70.086 11.682v64l70.086 11.682c3.418 12.060 8.198 23.544 14.192 34.266l-41.298 57.816 45.254 45.256 57.818-41.296c10.722 5.994 22.204 10.774 34.266 14.192l11.682 70.084h64l11.68-70.086c12.062-3.418 23.544-8.198 34.266-14.192l57.818 41.296 45.254-45.256-41.298-57.816c5.994-10.72 10.774-22.206 14.192-34.266l70.088-11.68v-64l-70.086-11.682c-3.418-12.060-8.198-23.544-14.192-34.266zM224 864c-35.348 0-64-28.654-64-64s28.652-64 64-64 64 28.654 64 64-28.652 64-64 64zM1024 384v-64l-67.382-12.25c-1.242-8.046-2.832-15.978-4.724-23.79l57.558-37.1-24.492-59.128-66.944 14.468c-4.214-6.91-8.726-13.62-13.492-20.13l39.006-56.342-45.256-45.254-56.342 39.006c-6.512-4.766-13.22-9.276-20.13-13.494l14.468-66.944-59.128-24.494-37.1 57.558c-7.812-1.892-15.744-3.482-23.79-4.724l-12.252-67.382h-64l-12.252 67.382c-8.046 1.242-15.976 2.832-23.79 4.724l-37.098-57.558-59.128 24.492 14.468 66.944c-6.91 4.216-13.62 8.728-20.13 13.494l-56.342-39.006-45.254 45.254 39.006 56.342c-4.766 6.51-9.278 13.22-13.494 20.13l-66.944-14.468-24.492 59.128 57.558 37.1c-1.892 7.812-3.482 15.742-4.724 23.79l-67.384 12.252v64l67.382 12.25c1.242 8.046 2.832 15.978 4.724 23.79l-57.558 37.1 24.492 59.128 66.944-14.468c4.216 6.91 8.728 13.618 13.494 20.13l-39.006 56.342 45.254 45.256 56.342-39.006c6.51 4.766 13.22 9.276 20.13 13.492l-14.468 66.944 59.128 24.492 37.102-57.558c7.81 1.892 15.742 3.482 23.788 4.724l12.252 67.384h64l12.252-67.382c8.044-1.242 15.976-2.832 23.79-4.724l37.1 57.558 59.128-24.492-14.468-66.944c6.91-4.216 13.62-8.726 20.13-13.492l56.342 39.006 45.256-45.256-39.006-56.342c4.766-6.512 9.276-13.22 13.492-20.13l66.944 14.468 24.492-59.13-57.558-37.1c1.892-7.812 3.482-15.742 4.724-23.79l67.382-12.25zM672 491.2c-76.878 0-139.2-62.322-139.2-139.2s62.32-139.2 139.2-139.2 139.2 62.322 139.2 139.2c0 76.878-62.32 139.2-139.2 139.2z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="home-text29 HeadingTwo">Open Source Projects</h2>
+            <h3 class="home-text30 HeadingTwo">
+              <span class="home-text31">How To Handle Them</span>
+              <br />
+            </h3>
+            <span class="home-text32">
+              <span class="home-text33">
+                We’re constantly trying to express ourselves and actualize our
+                dreams. Don't stop.
+              </span>
+            </span>
+          </div>
+          <div class="home-container31">
+            <div class="home-container32">
+              <div class="home-container33">
+                <svg viewBox="0 0 1024 1024" class="home-icon2">
+                  <path
+                    d="M214 426h596l-64-192h-468zM746 640q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM278 640q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM808 214l88 256v340q0 18-12 31t-30 13h-44q-18 0-30-13t-12-31v-42h-512v42q0 18-12 31t-30 13h-44q-18 0-30-13t-12-31v-340l88-256q14-44 62-44h468q48 0 62 44z"
+                  ></path>
+                </svg>
+                <h1 class="home-text34">FareX Car Rental</h1>
+                <span class="home-text35">Car Rental Website</span>
+                <a
+                  href="https://github.com/Swarup5241/Swarup5241.git"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link"
+                >
+                  <div class="outline-black-button-container">
+                    <button
+                      class="outline-black-button-button button ButtonSmall"
+                    >
+                      <span>get started</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="home-container34">
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>FareX Car Rental Project</span>
+                </h5>
+                <span>
+                  <span>
+                    "Project FareX: Revolutionizing Travel Solutions. Embark on
+                    a journey of innovation with FareX – a cutting-edge project
+                    dedicated to transforming the travel landscape. Our
+                    initiative focuses on seamless integration, user-centric
+                    design, and advanced technologies to redefine how people
+                    experience and navigate the world. Join us in shaping the
+                    future of travel with Project FareX – where connectivity,
+                    efficiency, and user satisfaction converge."
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="home-divider"></div>
+          <div class="home-container35">
+            <div class="home-container36">
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>Data Analysis on Covid 19 Project</span>
+                </h5>
+                <span>
+                  <span>
+                    Covid-19 analysis involves examining pandemic-related data,
+                    trends, and patterns to understand the virus's impact on
+                    health, economies, and society. It encompasses statistical
+                    modeling, vaccination rates, infection rates, and assessing
+                    the effectiveness of public health measures. The analysis
+                    aims to inform decision-making, improve healthcare
+                    responses, and contribute to global efforts in managing and
+                    mitigating the impact of the pandemic.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="home-container37">
+              <div class="home-container38"></div>
+              <div class="home-container39">
+                <svg viewBox="0 0 1024 1024" class="home-icon4">
+                  <path
+                    d="M725.333 213.333c-32.896 0-62.635 12.843-85.333 33.237v-75.904c0-70.571-57.429-128-128-128s-128 57.429-128 128v203.904c-22.699-20.395-52.437-33.237-85.333-33.237-70.571 0-128 57.429-128 128v256h682.667v-384c0-70.571-57.429-128-128-128zM512 128c23.509 0 42.667 19.115 42.667 42.667v469.333h-85.333v-469.333c0-23.552 19.157-42.667 42.667-42.667zM341.333 640h-85.333v-170.667c0-23.552 19.157-42.667 42.667-42.667s42.667 19.115 42.667 42.667v170.667zM768 640h-85.333v-298.667c0-23.552 19.157-42.667 42.667-42.667s42.667 19.115 42.667 42.667v298.667z"
+                  ></path>
+                  <path
+                    d="M810.667 896h-597.333c-23.552 0-42.667-19.072-42.667-42.667s19.115-42.667 42.667-42.667h597.333c23.552 0 42.667 19.072 42.667 42.667s-19.115 42.667-42.667 42.667z"
+                  ></path>
+                </svg>
+                <h1 class="home-text36">Data Analysis on Covid 19</h1>
+                <span class="home-text37">Data Analysis Dashboard</span>
+                <a
+                  href="https://github.com/Swarup5241/covid-19-dashboard.git"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link1"
+                >
+                  <div class="outline-black-button-container">
+                    <button
+                      class="outline-black-button-button button ButtonSmall"
+                    >
+                      <span>get started</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer-footer">
+          <div class="footer-container">
+            <div class="footer-container1">
+              <span class="footer-text">SN</span>
+              <span>Copyright © 2021 Developed By Swarup Narwade.</span>
+            </div>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <span class="footer-text02 Large">Company</span>
+                <a href="index.html" class="footer-navlink Large">About Us</a>
+                <span class="footer-text03 Large">Careers</span>
+                <span class="footer-text04 Large">Press</span>
+              </div>
+              <div class="footer-container4">
+                <span class="footer-text05 Large">Pages</span>
+                <span class="footer-text06 Large">Login</span>
+                <span class="footer-text07 Large">Register</span>
+                <a href="profile.html" class="footer-navlink1 Large">About</a>
+              </div>
+              <div class="footer-container5">
+                <span class="footer-text08 Large">Products</span>
+                <span class="footer-text09 Large">Free</span>
+                <span class="footer-text10 Large">PRO</span>
+                <span class="footer-text11 Large">Latest</span>
+              </div>
+            </div>
+          </div>
+          <img alt="image" src="public/waves-white.svg" class="footer-image" />
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
