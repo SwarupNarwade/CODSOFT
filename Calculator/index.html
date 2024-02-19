@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="Calculator_Container">    
+        <div class="Calculator_iphone">
+            
+            <div class="Calculator_Input_Display">
+               <textarea rows="7" cols="40" id="Calculator_Input_Number_previous"></textarea>
+                <input type="text" id="Calculator_Input_Number">
+            </div>
+            <div class="Calculator_Button">
+                <div class="Calculator_Button_Left3">
+                    <div class="Calculator_Button_Left3_Top">
+                        <div class="Calculator_Button_FixedSize_Top" id="Calculator_Input_AC" class="Calculator_HoverEffect">AC</div>
+                        <div class="Calculator_Button_FixedSize_Top" onclick="display('+/-')">+/-</div>
+                        <div class="Calculator_Button_FixedSize_Top" onclick="display('%')">%</div>
+                    </div>
+                    <div class="Calculator_Button_Left_Number">
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('9')">9</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('8')">8</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('7')">7</div>
+
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('6')">6</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('5')">5</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('4')">4</div>
+
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('3')">3</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('2')">2</div>
+                        <div class="Calculator_Button_FixedSize_Number" onclick="display('1')">1</div>
+                    </div>
+                    <div class="Calculator_Button_Left3_Bottom">
+                    <div class="Calculator_Button_FixedSize_Bottom" id="Calculator_Button_FixedSize_Zero" onclick="display('0')">0</div>
+                    <div class="Calculator_Button_FixedSize_Bottom" onclick="display('.')">.</div>
+                    </div>
+                </div>
+                <div class="Calculator_Button_Right1">
+                <div class="Calculator_Button_FixedSize_orange" onclick="display('/')">÷</div>
+                <div class="Calculator_Button_FixedSize_orange" onclick="display('*')">x</div>
+                <div class="Calculator_Button_FixedSize_orange"onclick="display('-')">-</div>
+                <div class="Calculator_Button_FixedSize_orange" onclick="display('+')">+</div>
+                <div class="Calculator_Button_FixedSize_orange"  onclick="DisplaySolve()">=</div>
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <script src="Calculator.js"></script>  
+    </body>
+</html>

@@ -1,0 +1,169 @@
+body{
+  background-color: #faa825;
+  
+}
+
+.Calculator_Container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Users/apple/Downloads/35f2f290-b030-4c7c-9726-17033258230a/Background.png');
+    background-color: transparent; 
+}
+.Calculator_iphone{
+    background-color: #000;
+    border-radius: 20px;
+    padding:5px;
+    box-shadow:
+    -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(0,0,0,0.5);
+    
+    
+  
+}
+/***Display Number***/
+.Calculator_Input_Display{
+    width: 288px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#Calculator_Input_Number{
+    width: 275px;
+    height: 100%;
+    outline: none;
+    background-color: #000;
+    color:#fff;
+    border:none;
+    font-size: 40px;
+    overflow-y:hidden ;
+    text-align: right;
+    resize: none;    
+}
+#Calculator_Input_Number_previous{
+    width: 275px;
+    height: 100%;
+    outline: none;
+    background-color: #000;
+    color:#fff;
+    border:none;
+    font-size: 20px;
+    overflow-y:hidden ;
+    text-align: right;
+    resize: none; 
+    display: flex;
+    flex-direction: row-reverse; 
+    padding:30px 0px 0px 0px;
+    color:#dbd8d3;
+
+}
+
+.Calculator_Button{
+    display:flex;
+    flex-direction:row;
+
+  
+}
+.Calculator_Button_Left3_Top{
+    display:flex;
+    flex-direction:row;
+}
+.Calculator_Button_FixedSize{
+    width:60px;
+    height:60px;
+    border:1px solid #000;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size:25px;
+    margin:5px;
+}
+.Calculator_Button_FixedSize_Top{
+   width:60px;
+    height:60px;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size:25px;
+    margin:5px;
+    background-color:rgb(224, 240, 255);
+
+}
+.Calculator_Button_Left_Number{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:218px;
+    color:white;
+    
+}
+.Calculator_Button_FixedSize_Number{
+       width:60px;
+    height:60px;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size:25px;
+    margin:5px;
+    background-color:rgb(145, 145, 145);
+}
+.Calculator_Button_Left3_Bottom{
+     display:flex;
+    flex-direction:row;  
+    color:white; 
+}
+#Calculator_Button_FixedSize_Zero{
+    width:130px;
+    align-items:left;
+    text-align:left;
+    
+}
+.Calculator_Button_FixedSize_Bottom{
+    width:60px;
+    height:60px;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size:25px;
+    font-weight:25px;
+    margin:5px;
+    background-color:rgb(145, 145, 145);   
+}
+.Calculator_Button_Right1{
+    display:flex;
+    flex-direction:column;
+    
+    
+
+}
+.Calculator_Button_FixedSize_orange{
+    width:60px;
+    height:60px;
+    border-radius:60px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    font-size:20px;
+    margin:5px; 
+    background-color:orange;
+    color:#fff;
+    font-size:30px;
+    
+
+}
